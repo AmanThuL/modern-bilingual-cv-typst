@@ -12,7 +12,7 @@
   colored-headers: true,
   show-footer: true,
   language: "en",
-  font: ("Source Sans 3", "Source Sans Pro"),
+  font: "Source Sans 3",
   header-font: "Roboto",
   paper-size: "a4",
   use-smallcaps: true,

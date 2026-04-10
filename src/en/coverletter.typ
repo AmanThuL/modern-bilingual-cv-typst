@@ -39,7 +39,7 @@
   date: datetime.today().display("[month repr:long] [day], [year]"),
   accent-color: default-accent-color,
   language: "en",
-  font: ("Source Sans 3", "Source Sans Pro"),
+  font: "Source Sans 3",
   header-font: "Roboto",
   show-footer: true,
   signature: none,
