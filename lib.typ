@@ -6,7 +6,7 @@
 #import "src/en/resume.typ": resume-entry, resume-item, resume-skill-item, resume-skill-grid, resume-gpa, resume-certification, github-link
 
 // English cover letter template
-#import "src/en/coverletter.typ": coverletter as en-coverletter, hiring-entity-info, letter-heading
+#import "src/en/coverletter.typ": coverletter as en-coverletter, hiring-entity-info, letter-heading, default-signature, default-closing
 
 // Shared utilities (accent color, icon system)
 #import "src/common.typ": default-accent-color, make-icon, fa-angle-right
