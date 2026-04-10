@@ -8,7 +8,7 @@
 #show: cn-resume.with(
   size: 10pt,
   accent-color: default-accent-color,
-  photograph: "profile.png",
+  photograph: image("profile.png", width: 10em),
   photograph-width: 10em,
   gutter-width: 2em,
 )[

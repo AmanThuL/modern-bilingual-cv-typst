@@ -17,7 +17,7 @@
     left: 2cm,
     right: 2cm,
   ),
-  photograph: "",
+  photograph: none,
   photograph-width: 0em,
   gutter-width: 0em,
   header-center: false,
@@ -74,7 +74,7 @@
 
   // Header with optional photo
   if header-center {
-    assert(photograph == "", message: "can not centerize the name with the photo")
+    assert(photograph == none, message: "can not centerize the name with the photo")
     align(alignment.center, header)
     introduction
   } else {
@@ -82,8 +82,8 @@
       columns: (auto, 1fr, photograph-width),
       gutter: (gutter-width, 0em),
       [#header #introduction],
-      if photograph != "" {
-        image(photograph, width: photograph-width)
+      if photograph != none {
+        photograph
       },
     )
   }
