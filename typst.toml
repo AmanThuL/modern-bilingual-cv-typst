@@ -9,6 +9,7 @@ description = "A bilingual (Chinese/English) resume template combining Chinese s
 keywords = ["CV", "Resume", "Chinese", "English", "Bilingual"]
 categories = ["cv"]
 repository = "https://github.com/rudyzhang/modern-cv-cn-en"
+exclude = ["assets/*", "CLAUDE.md"]
 
 [template]
 path = "template"

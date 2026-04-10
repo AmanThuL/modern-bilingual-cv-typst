@@ -4,6 +4,35 @@ A bilingual (Chinese/English) resume template for [Typst](https://typst.app/), c
 
 Each language keeps its native design language — serif + sidebar for Chinese, sans-serif + justified headers for English — with a unified accent color. The package also includes an English cover letter template.
 
+## Previews
+
+<table>
+  <tr>
+    <td align="center"><b>English resume</b> (with photo)</td>
+    <td align="center"><b>Chinese resume</b> (with photo)</td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/resume-en.png" alt="English resume with photo" width="400"/></td>
+    <td><img src="assets/screenshots/resume-cn.png" alt="Chinese resume with photo" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>English resume</b> (no photo)</td>
+    <td align="center"><b>Chinese resume</b> (no photo)</td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/resume-en-no-photo.png" alt="English resume no photo" width="400"/></td>
+    <td><img src="assets/screenshots/resume-cn-no-photo.png" alt="Chinese resume no photo" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>English cover letter</b> (with photo)</td>
+    <td align="center"><b>English cover letter</b> (no photo)</td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/coverletter-en.png" alt="English cover letter with photo" width="400"/></td>
+    <td><img src="assets/screenshots/coverletter-en-no-photo.png" alt="English cover letter no photo" width="400"/></td>
+  </tr>
+</table>
+
 ## Features
 
 - **Two distinct layouts** optimized for their language
