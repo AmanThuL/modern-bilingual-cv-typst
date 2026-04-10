@@ -102,7 +102,8 @@ When publishing to Typst Universe (`@preview`):
 
 When starting work in this repo:
 
-1. `docs/superpowers/specs/2026-04-09-modern-cv-cn-en-design.md` — original design spec with rationale
-2. `docs/superpowers/plans/2026-04-09-modern-cv-cn-en.md` — step-by-step implementation plan
-3. `src/common.typ` — understand the icon system first
-4. `src/cn/resume.typ` and `src/en/resume.typ` — core template logic
+1. `src/common.typ` — understand the icon system first (SVG data + `make-icon`)
+2. `src/cn/resume.typ` — Chinese template show rule + content functions
+3. `src/en/helpers.typ` — English template shared internals
+4. `src/en/resume.typ` and `src/en/coverletter.typ` — English show rules
+5. `lib.typ` — see what's exported publicly
