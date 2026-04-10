@@ -181,22 +181,20 @@
     align(right, items.join(contact-items-separator))
   }
 
-  // Cover letter header: photo left, info right
-  let letter-header = {
+  // Cover letter header: photo left, info right (or info alone if no photo)
+  let letter-header = if profile-picture != none {
     grid(
       columns: (1fr, 2fr),
       rows: 100pt,
       align(left + horizon)[
-        #if profile-picture != none [
-          #block(
-            clip: true,
-            stroke: 0pt,
-            radius: 2cm,
-            width: 4cm,
-            height: 4cm,
-            profile-picture,
-          )
-        ]
+        #block(
+          clip: true,
+          stroke: 0pt,
+          radius: 2cm,
+          width: 4cm,
+          height: 4cm,
+          profile-picture,
+        )
       ],
       [
         #name
@@ -205,6 +203,11 @@
         #contacts
       ],
     )
+  } else {
+    name
+    positions
+    address
+    contacts
   }
 
   letter-header
