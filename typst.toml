@@ -1,0 +1,16 @@
+[package]
+name = "modern-cv-cn-en"
+version = "0.1.0"
+compiler = "0.12.0"
+entrypoint = "lib.typ"
+authors = ["Rudy Zhang"]
+license = "MIT"
+description = "A bilingual (Chinese/English) resume template combining Chinese sidebar layout with modern-cv English layout."
+keywords = ["CV", "Resume", "Chinese", "English", "Bilingual"]
+categories = ["cv"]
+repository = "https://github.com/rudyzhang/modern-cv-cn-en"
+
+[template]
+path = "template"
+entrypoint = "resume-en.typ"
+thumbnail = "thumbnail.png"
